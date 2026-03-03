@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Explore our blog for the latest Instagram bio ideas for boys, girls, businesses, and more. Tips, guides, and inspiration for the perfect social media profile.",
   alternates: {
-    canonical: "https://instabiogen.com/blog",
+    canonical: "https://profilebiogenerator.site/blog",
   },
   openGraph: {
     title: "Blog - Instagram Bio Ideas, Tips & Guides | InstaBioGen",
     description:
       "Explore our blog for Instagram bio ideas, tips, and guides for every personality and style.",
-    url: "https://instabiogen.com/blog",
+    url: "https://profilebiogenerator.site/blog",
   },
 }
 

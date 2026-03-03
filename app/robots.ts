@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://instabiogen.com/sitemap.xml",
+    sitemap: "https://profilebiogenerator.site/sitemap.xml",
   }
 }

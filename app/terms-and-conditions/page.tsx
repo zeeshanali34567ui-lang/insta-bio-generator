@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read the terms and conditions for using InstaBioGen. Understand your rights, obligations, and the rules that govern our AI-powered Instagram bio generator.",
   alternates: {
-    canonical: "https://instabiogen.com/terms-and-conditions",
+    canonical: "https://profilebiogenerator.site/terms-and-conditions",
   },
 }
 
@@ -14,7 +14,7 @@ const sections = [
   {
     title: "1. Acceptance of Terms",
     content:
-      "By accessing, browsing, or using InstaBioGen (instabiogen.com), you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, along with our Privacy Policy and Disclaimer. If you do not agree to any part of these terms, you must discontinue use of our website immediately. These terms apply to all visitors, users, and anyone who accesses the website.",
+      "By accessing, browsing, or using InstaBioGen (profilebiogenerator.site), you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, along with our Privacy Policy and Disclaimer. If you do not agree to any part of these terms, you must discontinue use of our website immediately. These terms apply to all visitors, users, and anyone who accesses the website.",
   },
   {
     title: "2. Description of Service",
@@ -105,7 +105,7 @@ const sections = [
     title: "14. Contact Information",
     content:
       "If you have any questions, concerns, or feedback about these Terms and Conditions, you can reach us at:",
-    afterContent: "Email: contact@instabiogen.com",
+    afterContent: "Email: contact@profilebiogenerator.site",
   },
 ]
 

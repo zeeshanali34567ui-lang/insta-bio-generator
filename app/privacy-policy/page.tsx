@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   description:
     "Read InstaBioGen's comprehensive privacy policy. Learn how we collect, use, and protect your data when using our Instagram bio generator. We respect your privacy.",
   alternates: {
-    canonical: "https://instabiogen.com/privacy-policy",
+    canonical: "https://profilebiogenerator.site/privacy-policy",
   },
 }
 
 const sections = [
   {
     title: "1. Introduction",
-    content: `Welcome to InstaBioGen ("we", "our", "us"). We are committed to protecting and respecting your privacy. This Privacy Policy explains how we handle information when you visit our website at instabiogen.com and use our Instagram bio generator tool. By using our website, you agree to the practices described in this policy.`,
+    content: `Welcome to InstaBioGen ("we", "our", "us"). We are committed to protecting and respecting your privacy. This Privacy Policy explains how we handle information when you visit our website at profilebiogenerator.site and use our Instagram bio generator tool. By using our website, you agree to the practices described in this policy.`,
   },
   {
     title: "2. Information We Collect",
@@ -96,7 +96,7 @@ const sections = [
       { bold: "Objection:", text: "Object to certain types of data processing." },
     ],
     afterContent:
-      "To exercise any of these rights, please email us at contact@instabiogen.com. We will respond within 30 days.",
+      "To exercise any of these rights, please email us at contact@profilebiogenerator.site. We will respond within 30 days.",
   },
   {
     title: "11. Changes to This Policy",
@@ -107,7 +107,7 @@ const sections = [
     title: "12. Contact Us",
     content:
       "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact us at:",
-    afterContent: "Email: contact@instabiogen.com",
+    afterContent: "Email: contact@profilebiogenerator.site",
   },
 ]
 

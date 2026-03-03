@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   description:
     "Learn about InstaBioGen, India's most trusted AI-powered Instagram bio generator. Discover our story, mission, team values, and why 50,000+ users trust us to craft the perfect bio.",
   alternates: {
-    canonical: "https://instabiogen.com/about",
+    canonical: "https://profilebiogenerator.site/about",
   },
   openGraph: {
     title: "About InstaBioGen - Our Story & Mission",
     description:
       "Discover how InstaBioGen became India's go-to Instagram bio generator. Learn about our mission, values, and commitment to helping you stand out.",
-    url: "https://instabiogen.com/about",
+    url: "https://profilebiogenerator.site/about",
   },
 }
 

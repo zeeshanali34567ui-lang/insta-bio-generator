@@ -29,12 +29,12 @@ export async function generateMetadata({
     keywords: post.keywords,
     authors: [{ name: post.author }],
     alternates: {
-      canonical: `https://instabiogen.com/blog/${post.slug}`,
+      canonical: `https://profilebiogenerator.site/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://instabiogen.com/blog/${post.slug}`,
+      url: `https://profilebiogenerator.site/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
@@ -169,19 +169,19 @@ export default async function BlogPostPage({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://instabiogen.com",
+        item: "https://profilebiogenerator.site",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://instabiogen.com/blog",
+        item: "https://profilebiogenerator.site/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: post.title,
-        item: `https://instabiogen.com/blog/${post.slug}`,
+        item: `https://profilebiogenerator.site/blog/${post.slug}`,
       },
     ],
   }

@@ -83,7 +83,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-foreground">Email Us</h3>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  contact@instabiogen.com
+                  contact@profilebiogenerator.site
                 </p>
               </div>
             </div>

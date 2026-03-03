@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 import { getAllSlugs } from "@/lib/blog-data"
 
-const siteUrl = "https://instabiogen.com"
+const siteUrl = "https://profilebiogenerator.site"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogSlugs = getAllSlugs()

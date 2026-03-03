@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read InstaBioGen's disclaimer. Understand the limitations of our AI-powered Instagram bio generator tool, our liability terms, and important legal notices.",
   alternates: {
-    canonical: "https://instabiogen.com/disclaimer",
+    canonical: "https://profilebiogenerator.site/disclaimer",
   },
 }
 
@@ -14,7 +14,7 @@ const sections = [
   {
     title: "1. General Disclaimer",
     content:
-      "The information and content provided on InstaBioGen (instabiogen.com) is for general informational and entertainment purposes only. All content, including AI-generated Instagram bios, blog posts, and tips, is provided on an \"as is\" and \"as available\" basis without any warranties or guarantees of any kind, whether express or implied. We make no representations about the accuracy, reliability, completeness, or suitability of any information on this website for any particular purpose.",
+      "The information and content provided on InstaBioGen (profilebiogenerator.site) is for general informational and entertainment purposes only. All content, including AI-generated Instagram bios, blog posts, and tips, is provided on an \"as is\" and \"as available\" basis without any warranties or guarantees of any kind, whether express or implied. We make no representations about the accuracy, reliability, completeness, or suitability of any information on this website for any particular purpose.",
   },
   {
     title: "2. No Affiliation with Instagram or Meta",
@@ -74,7 +74,7 @@ const sections = [
   {
     title: "10. Contact",
     content:
-      "If you have any questions or concerns about this disclaimer, please reach out to us at contact@instabiogen.com. We are happy to clarify anything.",
+      "If you have any questions or concerns about this disclaimer, please reach out to us at contact@profilebiogenerator.site. We are happy to clarify anything.",
   },
 ]
 

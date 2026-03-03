@@ -12,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
 })
 
-const siteUrl = "https://instabiogen.com"
+const siteUrl = "https://profilebiogenerator.site"
 
 export const metadata: Metadata = {
   title: {
