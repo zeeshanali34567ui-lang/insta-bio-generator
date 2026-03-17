@@ -19,12 +19,10 @@ export function HeroSection() {
             className="mt-5 text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            Instagram Bio Generator
+            Ultimate Instagram Bio Generator
           </h1>
           <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Generate cool, attitude, stylish, and professional Instagram bios
-            for boys instantly. Choose your tone, add emojis, and copy-paste
-            ready bios in seconds - 100% free.
+            Generate unlimited, cool, stylish, and professional Instagram bios instantly. Choose your perfect vibe, add emojis, and elevate your profile effortlessly - 100% free and secure.
           </p>
         </div>
 
