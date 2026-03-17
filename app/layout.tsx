@@ -16,17 +16,20 @@ const siteUrl = "https://profilebiogenerator.site"
 
 export const metadata: Metadata = {
   title: {
-    default: "Instagram Bio Generator | InstaBioGen",
+    default: "10,000+ Best Instagram Bio Ideas for Boys & Girls (2026)",
     template: "%s | InstaBioGen",
   },
   description:
-    "Generate cool Instagram bio for boys instantly with our AI-powered tool. Get 100+ attitude, stylish, professional, funny & motivational Instagram bio ideas for boys in 2026.",
+    "Copy & paste the best Instagram bios! Get 10,000+ attitude, cool, stylish, motivational, and aesthetic bio ideas for boys, girls, and businesses. Generate unique bios instantly for free.",
   keywords: [
     "instagram bio ideas for boys",
     "cool instagram bio for boys",
     "attitude bio for boys instagram",
     "stylish instagram bio for boys",
-    "instagram bio for boys 2026",
+    "instagram bio for girls",
+    "aesthetic instagram bio",
+    "best instagram bio 2026",
+    "instagram bio generator"
   ],
   authors: [{ name: "InstaBioGen" }],
   creator: "InstaBioGen",
@@ -36,15 +39,15 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "InstaBioGen",
-    title: "Instagram Bio Generator",
+    title: "10,000+ Best Instagram Bio Ideas & Free AI Generator",
     description:
-      "Generate cool Instagram bio for boys instantly with our AI-powered tool. Perfect for attitude, stylish, professional, funny, and motivational bios.",
+      "Stand out on Instagram! Copy & paste 10,000+ attitude, cool, stylish, and aesthetic bios instantly with our free AI generator tool.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Instagram Bio Generator",
+    title: "10,000+ Best Instagram Bio Ideas for Boys & Girls",
     description:
-      "Generate cool Instagram bio for boys instantly with our AI-powered tool.",
+      "Copy & paste the best Instagram bios! Get 10,000+ attitude, stylish, and aesthetic ideas instantly.",
     creator: "@instabiogen",
   },
   robots: {
