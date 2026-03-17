@@ -37,7 +37,7 @@ export function HowItWorksSection() {
               className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Generate Your Perfect Bio in 3 Simple Steps
+              Get Your Dream Bio in 3 Simple Steps
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
               Our Instagram Bio Generator is designed to be fast, easy, and

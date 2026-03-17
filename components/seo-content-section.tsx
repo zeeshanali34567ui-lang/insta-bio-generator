@@ -13,7 +13,7 @@ export function SeoContentSection() {
             className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            The Ultimate Guide to Instagram Bio Ideas for Boys
+            Master Your Instagram Game: Ultimate Bio Guide for Boys
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto">
             Everything you need to know to craft a bio that stands out, attracts followers, and defines your online personality.

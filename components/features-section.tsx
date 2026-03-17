@@ -29,16 +29,16 @@ export function FeaturesSection() {
             <div className="mx-auto max-w-7xl px-4 lg:px-8">
                 <div className="mx-auto max-w-3xl text-center">
                     <span className="text-sm font-semibold uppercase tracking-wider text-primary">
-                        Why Choose Us
+                        Why We Are The Best
                     </span>
                     <h2
                         className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl"
                         style={{ fontFamily: "var(--font-heading)" }}
                     >
-                        Everything you need for the perfect profile
+                        Supercharge Your Profile Effortlessly
                     </h2>
                     <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                        Our tool is designed simply to give you the best Instagram bios without any hassle.
+                        Everything you need to create an unforgettable first impression on Instagram.
                     </p>
                 </div>
 

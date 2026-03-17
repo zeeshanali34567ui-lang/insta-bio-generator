@@ -13,16 +13,16 @@ export function HeroSection() {
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-            #1 Instagram Bio Generator for Boys
+            🚀 The #1 Instagram Bio Generator for Boys
           </span>
           <h1
             className="mt-5 text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            Ultimate Instagram Bio Generator
+            Craft the Perfect Instagram Bio in Seconds
           </h1>
           <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Generate unlimited, cool, stylish, and professional Instagram bios instantly. Choose your perfect vibe, add emojis, and elevate your profile effortlessly - 100% free and secure.
+            Stand out from the crowd with our AI-powered bio generator. Get instant, swag, attitude, VIP, and stylish bios tailored specifically for boys. 100% Free. No sign-up required.
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

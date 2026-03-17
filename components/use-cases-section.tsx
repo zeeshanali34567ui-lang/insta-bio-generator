@@ -47,7 +47,7 @@ export function UseCasesSection() {
                             className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl"
                             style={{ fontFamily: "var(--font-heading)" }}
                         >
-                            The Perfect Bio for Every Identity
+                            Bios Built for Every Vibe and Persona
                         </h2>
                         <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                             Whether you are grinding at the gym, clutching ranked matches, or building a startup, we generate the exact bio that matches your persona.

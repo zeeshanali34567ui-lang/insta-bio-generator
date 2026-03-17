@@ -43,7 +43,7 @@ export function TestimonialsSection() {
                         className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl"
                         style={{ fontFamily: "var(--font-heading)" }}
                     >
-                        Trusted by Creators Everywhere
+                        Loved by Thousands of Creators Globally
                     </h2>
                     <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                         See what thousands of boys, influencers, and professionals are saying about our bio generator.
