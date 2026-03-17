@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: "About Us - InstaBioGen | Who We Are & Our Story",
   description:
-    "Learn about InstaBioGen, India's most trusted AI-powered Instagram bio generator. Discover our story, mission, team values, and why 50,000+ users trust us to craft the perfect bio.",
+    "Learn about InstaBioGen, the trusted AI-powered Instagram bio generator. Discover our story, mission, and why users trust us for perfect profile bios.",
   alternates: {
     canonical: "https://profilebiogenerator.site/about",
   },

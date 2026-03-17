@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/blog-data"
 export const metadata: Metadata = {
   title: "Blog - Instagram Bio Ideas, Tips & Guides",
   description:
-    "Explore our blog for the latest Instagram bio ideas for boys, girls, businesses, and more. Tips, guides, and inspiration for the perfect social media profile.",
+    "Explore our blog for the latest Instagram bio ideas for boys, girls, and businesses. Get tips, guides, and inspiration for a perfect social media profile.",
   alternates: {
     canonical: "https://profilebiogenerator.site/blog",
   },

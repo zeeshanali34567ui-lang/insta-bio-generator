@@ -4,7 +4,7 @@ import { Shield } from "lucide-react"
 export const metadata: Metadata = {
   title: "Privacy Policy - How We Protect Your Data",
   description:
-    "Read InstaBioGen's comprehensive privacy policy. Learn how we collect, use, and protect your data when using our Instagram bio generator. We respect your privacy.",
+    "Read InstaBioGen's privacy policy. Learn how we collect, use, and protect your data when using our free AI Instagram bio generator. We respect your privacy.",
   alternates: {
     canonical: "https://profilebiogenerator.site/privacy-policy",
   },
