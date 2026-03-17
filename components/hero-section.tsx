@@ -24,6 +24,28 @@ export function HeroSection() {
           <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Generate unlimited, cool, stylish, and professional Instagram bios instantly. Choose your perfect vibe, add emojis, and elevate your profile effortlessly - 100% free and secure.
           </p>
+
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <div className="flex -space-x-3">
+              {[
+                { bg: "bg-blue-500", label: "M" },
+                { bg: "bg-green-500", label: "R" },
+                { bg: "bg-purple-500", label: "S" },
+                { bg: "bg-orange-500", label: "A" },
+                { bg: "bg-pink-500", label: "K" },
+              ].map((avatar, i) => (
+                <div
+                  key={i}
+                  className={`flex h-10 w-10 items-center justify-center rounded-full border-2 border-background text-xs font-bold text-white ${avatar.bg}`}
+                >
+                  {avatar.label}
+                </div>
+              ))}
+            </div>
+            <div className="text-sm font-medium text-muted-foreground">
+              <span className="font-bold text-foreground">50,000+</span> bios generated this month
+            </div>
+          </div>
         </div>
 
         {/* Bio Generator Tool */}
