@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | InstaBioGen",
   },
   description:
-    "Copy & paste the best Instagram bios! Get 10,000+ attitude, cool, stylish, motivational, and aesthetic bio ideas for boys, girls, and businesses. Generate unique bios instantly for free.",
+    "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
   keywords: [
     "instagram bio ideas for boys",
     "cool instagram bio for boys",
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     siteName: "InstaBioGen",
     title: "10,000+ Best Instagram Bio Ideas & Free AI Generator",
     description:
-      "Stand out on Instagram! Copy & paste 10,000+ attitude, cool, stylish, and aesthetic bios instantly with our free AI generator tool.",
+      "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
   },
   twitter: {
     card: "summary_large_image",
     title: "10,000+ Best Instagram Bio Ideas for Boys & Girls",
     description:
-      "Copy & paste the best Instagram bios! Get 10,000+ attitude, stylish, and aesthetic ideas instantly.",
+      "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
     creator: "@instabiogen",
   },
   robots: {
