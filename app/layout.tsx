@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     default: "10,000+ Best Instagram Bio Ideas for Boys & Girls (2026)",
     template: "%s | InstaBioGen",
   },
+  icons: {
+    icon: "/fav_icon.png",
+  },
   description:
     "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
   keywords: [
