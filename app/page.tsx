@@ -4,6 +4,7 @@ import { HowItWorksSection } from "@/components/how-it-works-section"
 import { WhatIsSection } from "@/components/what-is-section"
 import { WhyUseSection } from "@/components/why-use-section"
 import { PopularBiosSection } from "@/components/popular-bios-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
 import { FaqSection } from "@/components/faq-section"
 import { FeaturesSection } from "@/components/features-section"
 
@@ -39,7 +40,7 @@ export default function HomePage() {
       <WhyUseSection />
       <PopularBiosSection />
       <HowItWorksSection />
-      <FeaturesSection />
+      <TestimonialsSection />
       <FaqSection />
     </>
   )

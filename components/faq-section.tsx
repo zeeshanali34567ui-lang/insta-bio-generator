@@ -9,48 +9,45 @@ import {
 
 const faqs = [
   {
-    question: "What are the best Instagram bio ideas for boys?",
+    question: "What exactly is an Instagram Bio Generator?",
     answer:
-      "The best Instagram bio ideas for boys include attitude bios, cool bios, stylish bios, and motivational quotes. Our AI-powered generator creates unique bio ideas tailored to your personality. Choose from 10+ tones including VIP, swag, professional, funny, and creative styles.",
+      "An Instagram Bio Generator is a highly specialized AI-powered tool that automatically creates, formats, and styles profile descriptions for your social media. Instead of manually brainstorming quotes or worrying about character limits and emoji placements, the algorithm delivers multiple copy-paste ready options based on your selected tone, category, and preferences. It completely eliminates creative block and ensures your profile looks incredibly professional or stylish within seconds."
   },
   {
-    question: "How do I create a cool Instagram bio for boys?",
+    question: "Are the generated bios actually unique?",
     answer:
-      "To create a cool Instagram bio for boys, use our free bio generator tool. Simply select the 'Cool' tone, optionally enter your name, toggle emojis and hashtags, and click Generate. You'll get 5 unique copy-paste ready bios instantly. You can regenerate as many times as you like.",
+      "Absolutely. Unlike static copy-paste websites that provide the exact same list of 50 bios to millions of visitors, our generator uses advanced generative AI models. This means it dynamically pieces together sentences, vocabulary, and aesthetics based on a massive database to provide combinations that are entirely fresh. When you generate an attitude bio for boys or an aesthetic bio for girls, it is highly personalized and highly unique to your prompt session."
   },
   {
-    question:
-      "Can I generate attitude bio for boys Instagram profiles for free?",
+    question: "Is this tool completely free to use?",
     answer:
-      "Yes, our Instagram bio generator is completely free to use. You can generate unlimited attitude bios for boys by selecting the 'Attitude' tone. Each generation provides 5 unique variations with one-click copy functionality.",
+      "Yes! We firmly believe that everyone deserves an outstanding digital presence without having to pay for it. InstaBioGen is 100% free forever. There are no hidden fees, no required premium subscriptions to unlock the 'best' bios, no email waitlists, and absolutely no credit card requirements. You can generate fifty different bios in one day, and you still will not hit a paywall."
   },
   {
-    question: "What makes a stylish Instagram bio for boys?",
+    question: "How do I choose the right tone for my profile?",
     answer:
-      "A stylish Instagram bio for boys typically includes elegant wording, fashion-related references, and a touch of class. Use our generator with the 'Stylish' tone to get bios that combine sophistication with personality. Add emojis for extra flair.",
+      "Choosing your tone depends entirely on what you want to achieve with your Instagram profile. If you are running a business or a creative portfolio, the 'Professional' tone is best to establish trust and authority. If you want to show off your confidence and high standards, the 'Attitude' or 'VIP' bios are perfect. If you just want to vibe with your friends, 'Cool' or 'Funny' bios work incredibly well. Feel free to experiment with all of them until you find the perfect match!"
+  },
+  {
+    question: "Will the formatting remain correct when I copy and paste it?",
+    answer:
+      "Yes! One of the biggest complaints people have with Instagram is that writing multiple lines natively in the app often results in glitched spacing or broken line breaks. Our tool mathematically formats the text so that when you use our 'Copy' button and paste it directly into your Instagram 'Edit Profile' section, the line breaks, the invisible spaces, and the emojis are preserved absolutely perfectly."
   },
   {
     question: "How often should I change my Instagram bio?",
     answer:
-      "It's recommended to update your Instagram bio every few weeks or whenever you achieve something new. A fresh bio keeps your profile interesting and can attract new followers. Use our generator to get trending Instagram bio ideas for boys in 2026.",
+      "Social media experts generally recommend auditing and updating your Instagram bio every 4 to 6 weeks. Keeping your profile fresh signals to the algorithm and your followers that you are highly active. Furthermore, digital trends move incredibly quickly. What was considered a trendy bio in 2024 is outdated today. Use our generator to quickly check what the newest 2026 aesthetics and phrases look like, and keep your identity modern."
   },
   {
-    question: "Can I use these bios for other social media platforms?",
+    question: "Does it work for both boys and girls?",
     answer:
-      "Absolutely! While our tool specializes in Instagram bio ideas for boys, the generated bios work great on Facebook, Twitter, LinkedIn, and other social media platforms. They are versatile enough for any profile description.",
+      "Yes, our AI is trained on incredibly diverse datasets covering every demographic imaginable. Whether you specifically need hard-hitting, swag-filled attitude bios for boys, or soft, minimalist, cute aesthetic bios for girls, the tool handles both effortlessly. It even handles neutral, professional bios for brands, organizations, and businesses flawlessly."
   },
   {
-    question:
-      "What is the best short Instagram bio for boys?",
+    question: "Can I use these generated bios for TikTok or Twitter?",
     answer:
-      "Short Instagram bios are impactful and memorable. Select the 'Simple' tone in our generator for concise one-liner bios. Examples include motivational quotes, attitude statements, and cool one-word descriptions with emojis.",
-  },
-  {
-    question:
-      "How do I make a professional Instagram bio for boys?",
-    answer:
-      "For a professional Instagram bio, choose the 'Professional' tone in our generator. Add your real name, select 'Entrepreneur' or 'Student' category, and the tool will create bios that highlight your career goals and achievements.",
-  },
+      "Certainly! While the text length and formatting are explicitly optimized for Instagram’s strict character limits and visual aesthetics, incredibly stylish and cool bios are universal. You can instantly copy and paste the generated text directly into your TikTok, Twitter (X), Facebook, or YouTube profiles without any issues whatsoever."
+  }
 ]
 
 export function FaqSection() {
@@ -68,38 +65,42 @@ export function FaqSection() {
   }
 
   return (
-    <section className="bg-background py-16 lg:py-24">
-      <div className="mx-auto max-w-3xl px-4 lg:px-8">
+    <section className="bg-background py-16 lg:py-24 border-t border-border">
+      <div className="mx-auto max-w-4xl px-4 lg:px-8">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
 
-        <div className="text-center">
+        <div className="text-center mb-16">
+          <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+            Clear Your Doubts
+          </span>
           <h2
-            className="text-3xl font-bold tracking-tight text-foreground md:text-4xl"
+            className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-5xl"
             style={{ fontFamily: "var(--font-heading)" }}
           >
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Everything you need to know about Instagram bio ideas for boys and
-            our free bio generator tool.
+          <p className="mt-6 text-xl leading-relaxed text-muted-foreground max-w-3xl mx-auto">
+            Everything you need to know about our Instagram bio generator, how the AI fundamentally works, and how to maximize your social media growth.
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="mt-10">
-          {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`faq-${index}`}>
-              <AccordionTrigger className="text-left text-foreground">
-                {faq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <div className="bg-card border border-border shadow-sm rounded-3xl p-6 lg:p-10">
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`} className="border-border">
+                <AccordionTrigger className="text-left text-lg font-bold text-foreground py-6">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-base text-muted-foreground leading-relaxed pb-6 pr-8">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
       </div>
     </section>
   )
