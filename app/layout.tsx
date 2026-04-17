@@ -16,7 +16,7 @@ const siteUrl = "https://profilebiogenerator.site"
 
 export const metadata: Metadata = {
   title: {
-    default: "10,000+ Best Instagram Bio Ideas for Boys & Girls (2026)",
+    default: "Instagram Bio Generator 2026 – Create Stylish Bios",
     template: "%s | InstaBioGen",
   },
   icons: {
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "InstaBioGen",
-    title: "10,000+ Best Instagram Bio Ideas & Free AI Generator",
+    title: "Instagram Bio Generator 2026 – Create Stylish Bios",
     description:
       "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "10,000+ Best Instagram Bio Ideas for Boys & Girls",
+    title: "Instagram Bio Generator 2026 – Create Stylish Bios",
     description:
       "Get 10,000+ best Instagram bio ideas for boys & girls. Copy & paste cool, attitude, stylish and aesthetic bios instantly with our free AI generator.",
     creator: "@instabiogen",
