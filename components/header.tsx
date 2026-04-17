@@ -41,7 +41,7 @@ export function Header() {
 
         <div className="hidden md:flex">
           <Button asChild size="sm" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/#generator">Generate Bio</Link>
+            <Link href="/generator">Generate Bio</Link>
           </Button>
         </div>
 
@@ -70,7 +70,7 @@ export function Header() {
             ))}
             <div className="mt-2 px-4">
               <Button asChild size="sm" className="w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-                <Link href="/#generator" onClick={() => setMobileOpen(false)}>
+                <Link href="/generator" onClick={() => setMobileOpen(false)}>
                   Generate Bio
                 </Link>
               </Button>

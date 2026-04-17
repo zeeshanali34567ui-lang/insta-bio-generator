@@ -8,6 +8,14 @@ import { FeaturesSection } from "@/components/features-section"
 import { UseCasesSection } from "@/components/use-cases-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+}
+
 export default function HomePage() {
   return (
     <>

@@ -64,9 +64,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: siteUrl,
-  },
   verification: {
     google: "g4UN8qZBakpycCcAlG-QrqwigzDDGs3HvJZB3Su1iLA",
   },
