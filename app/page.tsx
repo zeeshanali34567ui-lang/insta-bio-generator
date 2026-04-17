@@ -1,12 +1,11 @@
 import { HeroSection } from "@/components/hero-section"
 import { HowItWorksSection } from "@/components/how-it-works-section"
 
-import { SeoContentSection } from "@/components/seo-content-section"
-import { BlogPreviewSection } from "@/components/blog-preview-section"
+import { WhatIsSection } from "@/components/what-is-section"
+import { WhyUseSection } from "@/components/why-use-section"
+import { PopularBiosSection } from "@/components/popular-bios-section"
 import { FaqSection } from "@/components/faq-section"
 import { FeaturesSection } from "@/components/features-section"
-import { UseCasesSection } from "@/components/use-cases-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
 
 import { Metadata } from "next"
 
@@ -36,14 +35,11 @@ export default function HomePage() {
         }}
       />
       <HeroSection />
+      <WhatIsSection />
+      <WhyUseSection />
+      <PopularBiosSection />
       <HowItWorksSection />
       <FeaturesSection />
-
-      <UseCasesSection />
-      <TestimonialsSection />
-
-      <SeoContentSection />
-      <BlogPreviewSection />
       <FaqSection />
     </>
   )
