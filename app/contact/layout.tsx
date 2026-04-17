@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     description:
       "Get in touch with InstaBioGen. Questions about our Instagram bio generator? We are here to help.",
     url: "https://profilebiogenerator.site/contact",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Contact Us - InstaBioGen",
+    description: "Submit a form to contact the InstaBioGen team.",
   },
 }
 
@@ -20,5 +26,21 @@ export default function ContactLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            name: "Contact InstaBioGen",
+            description: "Get in touch with InstaBioGen. Have questions about our Instagram bio generator? We are here to help.",
+            url: "https://profilebiogenerator.site/contact",
+          }),
+        }}
+      />
+      {children}
+    </>
+  )
 }

@@ -12,6 +12,25 @@ export const metadata: Metadata = {
 export default function GeneratorPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "Instagram Bio Generator Tool",
+            url: "https://profilebiogenerator.site/generator",
+            applicationCategory: "UtilityApplication",
+            operatingSystem: "All",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "USD",
+            },
+            description: "Free AI-powered Instagram bio generator to create stylish and cool bios.",
+          }),
+        }}
+      />
       <HeroSection />
     </>
   )

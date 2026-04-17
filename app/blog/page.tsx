@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     description:
       "Explore our blog for Instagram bio ideas, tips, and guides for every personality and style.",
     url: "https://profilebiogenerator.site/blog",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - Instagram Bio Ideas, Tips & Guides",
+    description: "Explore our blog for the latest Instagram bio ideas for boys, girls, and businesses.",
   },
 }
 

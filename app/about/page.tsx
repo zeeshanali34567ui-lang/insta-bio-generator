@@ -22,8 +22,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About InstaBioGen - Our Story & Mission",
     description:
-      "Discover how InstaBioGen became India's go-to Instagram bio generator. Learn about our mission, values, and commitment to helping you stand out.",
+      "Discover how InstaBioGen became India's go-to Instagram bio generator.",
     url: "https://profilebiogenerator.site/about",
+    type: "website",
+    siteName: "InstaBioGen",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About InstaBioGen",
+    description: "Learn about InstaBioGen, the trusted AI-powered Instagram bio generator.",
   },
 }
 
@@ -76,6 +83,22 @@ const milestones = [
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            name: "About InstaBioGen",
+            description: "Learn about InstaBioGen, the trusted AI-powered Instagram bio generator. Discover our story, mission, and why users trust us for perfect profile bios.",
+            url: "https://profilebiogenerator.site/about",
+            publisher: {
+              "@type": "Organization",
+              name: "InstaBioGen",
+            },
+          }),
+        }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden bg-background py-16 lg:py-24">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />

@@ -2,11 +2,22 @@ import type { Metadata } from "next"
 import { AlertTriangle } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Disclaimer - Important Legal Information",
+  title: "Disclaimer - Important Legal Information | InstaBioGen",
   description:
-    "Read InstaBioGen's disclaimer. Understand the limitations of our AI-powered Instagram bio generator tool, our liability terms, and important legal notices.",
+    "Read InstaBioGen's disclaimer. Understand the limitations of our AI-powered Instagram bio generator tool and related legal notices.",
   alternates: {
     canonical: "https://profilebiogenerator.site/disclaimer",
+  },
+  openGraph: {
+    title: "Disclaimer | InstaBioGen",
+    description: "Read InstaBioGen's disclaimer policies.",
+    url: "https://profilebiogenerator.site/disclaimer",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Disclaimer | InstaBioGen",
+    description: "Read InstaBioGen's disclaimer.",
   },
 }
 

@@ -19,6 +19,22 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "InstaBioGen",
+            url: "https://profilebiogenerator.site/",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://profilebiogenerator.site/generator?category={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
       <HeroSection />
       <HowItWorksSection />
       <FeaturesSection />

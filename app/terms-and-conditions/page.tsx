@@ -4,9 +4,20 @@ import { FileText } from "lucide-react"
 export const metadata: Metadata = {
   title: "Terms & Conditions - Rules of Using InstaBioGen",
   description:
-    "Read the terms and conditions for using InstaBioGen. Understand your rights, obligations, and the rules that govern our AI-powered Instagram bio generator.",
+    "Read the terms and conditions for using InstaBioGen. Understand your rights and obligations as a user.",
   alternates: {
     canonical: "https://profilebiogenerator.site/terms-and-conditions",
+  },
+  openGraph: {
+    title: "Terms & Conditions | InstaBioGen",
+    description: "Read the terms and conditions for using InstaBioGen.",
+    url: "https://profilebiogenerator.site/terms-and-conditions",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Terms & Conditions | InstaBioGen",
+    description: "Read the terms and conditions.",
   },
 }
 

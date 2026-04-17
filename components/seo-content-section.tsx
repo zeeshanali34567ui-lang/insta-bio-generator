@@ -72,7 +72,18 @@ export function SeoContentSection() {
 
           </div>
 
-          {/* Right: Sidebar (1 col) */}
+          <div className="lg:col-span-2 mt-4 rounded-2xl border border-border bg-background p-6 hover:shadow-md transition-all">
+            <h3 className="mb-3 text-xl font-bold text-foreground">
+              Why Use an Instagram Bio Generator?
+            </h3>
+            <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+              Crafting the perfect bio by yourself can be very time-consuming. You want something that precisely captures your character, but finding the right words, emojis, and styling isn't always easy. This is where an advanced Instagram Bio Generator becomes essential. By leveraging AI, the generator analyzes thousands of successful, stylish bios and curating them specifically for your profile. 
+            </p>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              Whether you are hunting for attitude bios to assert your dominance, aesthetic elements for visual appeal, or just fresh bio ideas to revamp an outdated profile, utilizing a generator guarantees you get highly engaging, copy-paste ready results without the headache. Step up your social media presence with stylish bios engineered to maximize follower conversion and engagement right from your first impression.
+            </p>
+          </div>
+
           <div className="flex flex-col gap-6 lg:col-span-1">
             {/* Image */}
             <div className="overflow-hidden rounded-2xl shadow-sm border border-border">
