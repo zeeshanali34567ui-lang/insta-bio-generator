@@ -274,6 +274,73 @@ export default function ContactPage() {
           )}
         </div>
       </section>
+
+      {/* Additional SEO Content Section */}
+      <section className="border-t border-border bg-card py-16 lg:py-24">
+        <div className="mx-auto max-w-4xl px-4 lg:px-8">
+          <div className="mb-12 text-center">
+            <h2
+              className="text-3xl font-bold tracking-tight text-foreground md:text-4xl"
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              More About Reaching Out to InstaBioGen
+            </h2>
+            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+              We are dedicated to providing the best AI Instagram bio generation experience. Here is everything you need to know about contacting our support team.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="rounded-2xl border border-border bg-background p-6 hover:shadow-md transition-all">
+              <h3 className="mb-3 text-xl font-bold text-foreground">
+                Why Your Feedback Matters
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+                At InstaBioGen, our goal is to empower users with the most creative, stylish, and engaging Instagram bios on the internet. Whether you are looking for an attitude bio, a cool quote, or a professional summary, our AI depends on continuous learning. Your feedback plays a critical role in this process. When you share your thoughts, suggest new bio categories, or report an issue, you directly contribute to making our Instagram bio generator better for everyone.
+              </p>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                We read every single message. If you have an idea for a new tone—like a specific gaming aesthetic or a unique regional slang—let us know! Our development team regularly rolls out updates based entirely on user requests to keep your social media presence fresh and trending.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-background p-6 hover:shadow-md transition-all">
+              <h3 className="mb-3 text-xl font-bold text-foreground">
+                Before You Send a Message
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+                To help us assist you faster, please make sure to check out our Frequently Asked Questions on the homepage. Many common queries—such as how to use the copy-paste feature, whether the tool is truly free (yes, always 100% free!), or how the AI generates unique text—are already answered there in detail.
+              </p>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                If you are reporting a bug or technical issue, please include as much detail as possible in your contact form. Mention the device you are using (e.g., iPhone, Android, or Desktop), the browser, and the specific steps that led to the issue. This technical detail allows our engineers to reproduce the problem and deploy a fix much quicker, ensuring our bio generator remains seamless for millions of users.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-background p-6 hover:shadow-md transition-all">
+              <h3 className="mb-3 text-xl font-bold text-foreground">
+                Partnerships & Collaborations
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+                Are you an influencer, social media manager, or a brand looking to collaborate? We are always open to exciting partnerships! InstaBioGen helps thousands of users daily to elevate their Instagram aesthetic, and aligning with voices that share our passion for social media growth is something we highly value.
+              </p>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                If you are interested in a partnership, simply select "General Question" in the form above and start your subject line with "[Partnership]". Let us know how we can work together to bring even more value to the community. We are especially interested in collaborating with content creators who focus on Instagram tips, digital marketing, and profile aesthetics.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-background p-6 hover:shadow-md transition-all">
+              <h3 className="mb-3 text-xl font-bold text-foreground">
+                Our Customer Support Commitment
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+                We believe that free tools should still come with premium support. While InstaBioGen does not charge any hidden fees or require premium subscriptions for generating top-tier Instagram bios, we are fully committed to answering your questions promptly. Our support team typically responds within 24 to 48 hours during regular business days.
+              </p>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Please note that during peak traffic or massive viral updates (when everyone is hunting for the newest 2026 bio trends!), response times might be slightly delayed. Rest assured, your message is safely delivered to our inbox, and a real human being—no bots here—will read and respond to it as soon as possible. Thank you for making us the #1 Instagram Bio Generator platform!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
