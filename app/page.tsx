@@ -32,21 +32,27 @@ export default function HomePage() {
         {/* 1. HERO SECTION */}
         <section id="generator" className="text-center space-y-8 mt-8">
           <span className="inline-flex items-center rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-            🚀 The #1 Free Instagram Bio Generator
+            🚀 The #1 Free Tool
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-balance">
-            Stop Losing Followers to a Boring Bio. Transform Your Profile Instantly.
+            Instagram Bio Generator: Transform Your Profile Instantly
           </h1>
           <p className="mx-auto max-w-3xl text-lg sm:text-xl text-muted-foreground text-pretty">
             Generate high-converting, aesthetic, and wildly unique Instagram bios in seconds. Claim your digital identity, stand out from the algorithmic noise, and turn casual profile visitors into fiercely loyal followers.
           </p>
           
-          <div className="pt-8">
+          <div className="pt-2">
+             <a href="#generator-tool" className="inline-flex h-14 items-center justify-center rounded-full bg-primary px-8 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+               Generate your bio now 🚀
+             </a>
+          </div>
+
+          <div id="generator-tool" className="pt-8">
             <BioGeneratorTool />
           </div>
         </section>
 
-        {/* 2. PATTERN INTERRUPT */}
+        {/* 2. INTRO (PATTERN INTERRUPT / PAS) */}
         <section className="mx-auto max-w-3xl space-y-6">
           <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">The Silent Killer of Your Social Growth</h2>
           <p className="text-lg leading-relaxed text-muted-foreground">
@@ -78,15 +84,12 @@ export default function HomePage() {
           <p className="text-lg leading-relaxed text-muted-foreground">
             Within milliseconds, the psychological magic completely fades. The curiosity dies instantaneously. The momentum you worked so incredibly hard to build is destroyed in a fraction of a second. They hit the back button, returning to their endless scroll, and they are gone forever. You didn't just lose a view; you lost a highly engaged follower, a potential customer, or a true, dedicated fan.
           </p>
-          <p className="text-lg font-medium text-foreground">
-            That’s exactly why we engineered the ultimate <strong>instagram bio generator</strong>. We realized that whether you are desperately searching for fresh <strong>instagram bio ideas</strong>, hunting for an aesthetic edge to match your brand, or simply wanting to refresh your personal identity for the modern era, the words you choose hold immense, measurable power. Your profile shouldn't just be a static placeholder—it should be a powerful, dynamic, converting magnet.
-          </p>
         </section>
 
         {/* 4. CORE UNDERSTANDING */}
         <section className="mx-auto max-w-3xl space-y-8">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">What Exactly is an Instagram Bio Generator?</h2>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">What is an Instagram Bio Generator?</h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
               Think of our platform as your personal, highly-trained digital architect, your brand strategist, and an elite Silicon Valley copywriter all rolled into one entirely free tool. Instead of staring blankly at a blinking cursor, feeling overwhelmed and wondering how you are supposed to summarize your entire complex existence, your deep passions, and your unique value proposition in a mere 150 characters, our tool does the heavy lifting for you.
             </p>
@@ -122,7 +125,7 @@ export default function HomePage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Dominate Your Specific Niche</h2>
             <div className="mt-4 text-xl font-medium text-primary">
-              ✨ Turn casual visitors into loyal followers. ✨
+              ✨ Turn visitors into followers. ✨
             </div>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
               Generic, one-size-fits-all advice fails because context is absolutely everything. No matter your specific niche, your background, or your ultimate goals, we have developed the perfect, mathematically proven high-converting formula. Let's explore exactly how the right words and intentional formatting will change everything for your specific profile.
@@ -212,7 +215,7 @@ export default function HomePage() {
 
         {/* 6. STYLE & TREND SECTION */}
         <section className="mx-auto max-w-3xl space-y-6">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Staying Ruthlessly Ahead of the Algorithm</h2>
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Stylish & Unique Bios</h2>
           <p className="text-lg leading-relaxed text-muted-foreground">
             Social media trends move at an absolutely breakneck speed. What worked flawlessly and looked incredibly aesthetic in 2022 looks tired, wildly outdated, and "cheugy" today. To truly dominate your niche and stand out from the millions of active users, you need <strong>stylish, cool, unique bios</strong> that deeply reflect the very current pulse of digital culture.
           </p>
@@ -227,10 +230,10 @@ export default function HomePage() {
           </p>
         </section>
 
-        {/* 7. PRACTICAL VALUE SECTION */}
+        {/* 7. PRACTICAL VALUE SECTION (Tips and Mistakes) */}
         <section className="mx-auto max-w-3xl space-y-8">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">How to Write High-Converting Bios</h2>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Tips to Write Better Bios</h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
               Even with the absolute best <strong>instagram bio generator free</strong> at your fingertips, deeply understanding the anatomical structure of a perfect, highly-optimized bio gives you the ultimate competitive edge over your rivals.
             </p>
@@ -243,7 +246,7 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold tracking-tight">Critical Mistakes You Must Avoid at All Costs</h3>
+            <h3 className="text-xl font-semibold tracking-tight">Common Mistakes You Must Avoid at All Costs</h3>
             <ul className="list-inside list-disc space-y-2 text-lg text-muted-foreground ml-4">
               <li><strong>Aggressive Keyword Stuffing:</strong> Do not just list random words like a malfunctioning robot. While semantic keywords are important for SEO discoverability, human readability comes first.</li>
               <li><strong>Emoji Overload:</strong> Emojis are powerful visual cues, but using 15 of them in a row makes your profile look like cheap spam. Use them strategically as bullet points or emotional accents.</li>
@@ -253,20 +256,9 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 8. TRUST SIMULATION */}
-        <section className="mx-auto max-w-3xl text-center bg-card border border-border p-8 rounded-3xl shadow-sm space-y-6">
-          <h2 className="text-3xl font-bold tracking-tight">Join The Elite Community</h2>
-          <p className="text-lg leading-relaxed text-muted-foreground">
-            You are not just using a simple tool; you are joining an elite tier of digital creators who understand the game. Most users are already upgrading their bios. Join over 500,000 highly successful creators, hardcore gamers, brilliant 7-figure entrepreneurs, and viral influencers who have completely transformed their digital presence and massive profile conversion rates using our proprietary system.
-          </p>
-          <p className="text-lg font-medium text-foreground">
-            Attention is the most expensive, valuable currency on earth. Because those who take their growth, their brand, and their legacy seriously simply do not leave their bio up to chance.
-          </p>
-        </section>
-
-        {/* 9. WHY CHOOSE US */}
+        {/* 8. WHY CHOOSE US */}
         <section className="mx-auto max-w-4xl space-y-8">
-          <h2 className="text-3xl font-bold tracking-tight text-center">The Algorithmic Engine Behind Your Growth</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-center">Why Choose Us</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             <div className="bg-card p-6 rounded-2xl border border-border shadow-sm">
               <h3 className="text-xl font-bold flex items-center gap-2">⚡ Blazing Fast AI Speed</h3>
@@ -287,7 +279,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 10. FINAL CTA */}
+        {/* 9. FINAL CTA */}
         <section className="mx-auto max-w-3xl text-center space-y-8 py-12">
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">The Unforgiving Cost of Inaction</h2>
           <p className="text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto text-pretty">
@@ -300,8 +292,8 @@ export default function HomePage() {
             Take complete control of your digital identity. Claim your space. Demand attention. Stand out, be unique, be noticed.
           </p>
           <div className="pt-8">
-             <a href="#generator" className="inline-flex h-14 items-center justify-center rounded-full bg-primary px-8 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-               🔥 Upgrade Your Bio Now & Start Growing!
+             <a href="#generator-tool" className="inline-flex h-14 items-center justify-center rounded-full bg-primary px-8 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+               Generate your bio now 🚀
              </a>
           </div>
         </section>
