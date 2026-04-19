@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import { BioGeneratorTool } from "@/components/bio-generator-tool"
+import { FaqSection } from "@/components/faq-section"
 
 export const metadata: Metadata = {
   alternates: {
@@ -278,6 +279,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* FAQ SECTION */}
+        <FaqSection />
 
         {/* 9. FINAL CTA */}
         <section className="mx-auto max-w-3xl text-center space-y-8 py-12">
