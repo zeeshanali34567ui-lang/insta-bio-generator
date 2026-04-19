@@ -283,25 +283,6 @@ export default function HomePage() {
         {/* FAQ SECTION */}
         <FaqSection />
 
-        {/* 9. FINAL CTA */}
-        <section className="mx-auto max-w-3xl text-center space-y-8 py-12">
-          <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">The Unforgiving Cost of Inaction</h2>
-          <p className="text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Listen closely: Your profile is actively getting views right now, at this very moment. Someone is looking at your page. They are judging your brand.
-          </p>
-          <p className="text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto">
-            Every single second you wait, every moment you delay optimizing your profile, another visitor bounces. Another potential super-fan leaves. Another high-paying customer goes to your direct competitor simply because your bio failed to capture their attention and articulate your true value.
-          </p>
-          <p className="text-xl font-semibold text-foreground max-w-2xl mx-auto">
-            Take complete control of your digital identity. Claim your space. Demand attention. Stand out, be unique, be noticed.
-          </p>
-          <div className="pt-8">
-             <a href="#generator-tool" className="inline-flex h-14 items-center justify-center rounded-full bg-primary px-8 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-               Generate your bio now 🚀
-             </a>
-          </div>
-        </section>
-
       </main>
     </>
   )
