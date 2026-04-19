@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { Inter, Space_Grotesk } from "next/font/google"
+import Script from "next/script"
 import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Header } from "@/components/header"
@@ -90,6 +91,20 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable}`}
     >
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-X2YJ572314"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-X2YJ572314');
+          `}
+        </Script>
+      </head>
       <body className="font-sans antialiased">
         <ThemeProvider
           attribute="class"
