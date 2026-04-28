@@ -17,14 +17,14 @@ const siteUrl = "https://profilebiogenerator.site"
 
 export const metadata: Metadata = {
   title: {
-    default: "Instagram Bio Generator 2026 – Create Stylish Bios",
+    default: "Instagram Bio Generator – Create Unique Bios Instantly",
     template: "%s | InstaBioGen",
   },
   icons: {
     icon: "/fav_icon.png",
   },
   description:
-    "Create stylish Instagram bios instantly with our free AI Bio Generator. Explore top ideas for boys & girls, including attitude, cool, and VIP styles.",
+    "Discover the best instagram bio ideas and generate stunning, high-converting bios in seconds. Free AI-powered tool for aesthetic, stylish, and professional profiles.",
   keywords: [
     "instagram bio ideas for boys",
     "cool instagram bio for boys",
@@ -43,15 +43,15 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "InstaBioGen",
-    title: "Instagram Bio Generator 2026 – Create Stylish Bios",
+    title: "Instagram Bio Generator – Create Unique Bios Instantly",
     description:
-      "Create stylish Instagram bios instantly with our free AI Bio Generator. Explore top ideas for boys & girls, including attitude, cool, and VIP styles.",
+      "Discover the best instagram bio ideas and generate stunning, high-converting bios in seconds. Free AI-powered tool for aesthetic, stylish, and professional profiles.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Instagram Bio Generator 2026 – Create Stylish Bios",
+    title: "Instagram Bio Generator – Create Unique Bios Instantly",
     description:
-      "Create stylish Instagram bios instantly with our free AI Bio Generator. Explore top ideas for boys & girls, including attitude, cool, and VIP styles.",
+      "Discover the best instagram bio ideas and generate stunning, high-converting bios in seconds. Free AI-powered tool for aesthetic, stylish, and professional profiles.",
     creator: "@instabiogen",
   },
   robots: {
